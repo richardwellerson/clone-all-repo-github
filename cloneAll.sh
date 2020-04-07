@@ -1,8 +1,12 @@
 #!/bin/bash
 
-echo "Username:"
+read -p "Username: " USERNAME
 
-read USERNAME
+REPOSGH= curl "https://api.github.com/users/$USERNAME/repos" |jq
+
+echo "----------"
+
+echo $REPOSGH 
 
 # REPO="$USERNAME/projTrybe"
 
