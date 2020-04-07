@@ -4,4 +4,10 @@ echo "Username:"
 
 read USERNAME
 
-echo $USERNAME
+# REPO="$USERNAME/projTrybe"
+
+# git clone https://github.com/$REPO.git
+
+# git status
+
+
