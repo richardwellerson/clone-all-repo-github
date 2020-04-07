@@ -1,2 +1,13 @@
-# clone-all-repo-github
-This repo have a shell script to clone all repo from Github.
+# Clone All Repo GitHub
+
+Hello!
+
+This is a simple script to Clone All Repositories of a Github User.
+
+## How does work?
+
+Insert a username
+
+Insert a path.
+
+Magic.
