@@ -1,12 +1,15 @@
 #!/bin/bash
+#!/bin/sh
 
 read -p "Username: " USERNAME
 
-REPOSGH= curl "https://api.github.com/users/$USERNAME/repos" |jq
+REPOSGH=$(curl "https://api.github.com/users/$USERNAME/repos")
 
 echo "----------"
 
-echo $REPOSGH 
+echo "Total Files: ${#REPOSGH[*]}"
+
+echo $REPOSGH
 
 # REPO="$USERNAME/projTrybe"
 
